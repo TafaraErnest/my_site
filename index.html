@@ -11,70 +11,77 @@
     <header>
       <nav>
         <ul class="nav__items">
-          <li class="nav__item"><a href="#">Home</a></li>
-          <li class="nav__item"><a href="#">Portfolio</a></li>
-          <li class="nav__item"><a href="#">CV</a></li>
-          <li class="nav__item"><a href="#">Projects</a></li>
-          <li class="nav__item"><a href="#">Contact</a></li>
+          <li class="nav__item"><a href="#home">Home</a></li>
+          <li class="nav__item"><a href="#about">About Me</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+          <li class="nav__item"><a href="#contacts">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
+    <main class="main" id="home">
       <!-- First section self intro -->
-      <section class="container--2 bx-sh">
+      <section class="container--2">
         <div class="top__sec">
           <h2 class="heading__1">I am Tafara Lanka</h2>
           <h3 class="heading__2">a web-developer</h3>
           <p class="par">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            consequuntur tenetur dolore ipsam dicta. Cumque exercitationem at
-            vero rerum officiis, maiores, corporis impedit facilis nihil
-            nesciunt laborum doloremque deleniti nostrum?
+            My name is Tafara Ernest, chinese name 兰卡. I am web developer
+            currently based in Beijing. My number one hobby is programming.
+            Besides making websites and web Apps, I am also into other fields
+            like drones and AI.
           </p>
-          <button class="btn">Projects</button>
+          <a href="#projects" class="btn">Projects</a>
         </div>
         <div class="container__right-1"></div>
       </section>
 
       <!-- Heading -->
-      <h2 class="heading__1 about_me">About me</h2>
+      <h2 class="heading__1" id="about">About me</h2>
 
       <!-- New section, about me -->
-      <section class="container--2 bx-sh">
+      <section class="container--2">
         <div class="container__left-2">
-          <img class="self__img" src="img/img3.jpg" alt="..." />
+          <img class="self__img" src="img/me_2.jpg" alt="..." />
           <div class="intro__features">
             <div class="feature">
-              <p class="feature__1">20+</p>
+              <p class="feature__1">30+</p>
               <p class="feature__2">Completed projects</p>
             </div>
             <div class="feature">
-              <p class="feature__1">20+</p>
-              <p class="feature__2">Completed projects</p>
+              <p class="feature__1">2+</p>
+              <p class="feature__2">years of practice</p>
             </div>
             <div class="feature">
-              <p class="feature__1">20+</p>
-              <p class="feature__2">Completed projects</p>
+              <p class="feature__1">10+</p>
+              <p class="feature__2">client sites</p>
             </div>
           </div>
         </div>
         <div class="container__right-2">
           <p class="par">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
-            itaque rem ipsa quae ullam? At similique reprehenderit aliquam
-            nesciunt non. Velit adipisci nam cum? Mollitia dolorum voluptatum
-            dicta quos dolores?
+            Completed both my undergraduate and graduate programs in Engineering
+            at University of Science and Technology, Beijing. I am fluent in
+            both languages, Chinese and English, with English as my official
+            language. For my undergraduate program thesis, my topic was on
+            self-driving mining vehicles, and that got me into programming,
+            python, AI, OpenCV etc. As I learnt these languages, I realised my
+            passion for web development and since then I have completed several
+            online programs and obtained the certificates.
           </p>
-          <button class="btn btn__cv">Download cv</button>
+          <a href="assets/JavaScript.jpg" class="btn btn__cv">View cv</a>
+          <a href="assets/JavaScript.jpg" class="btn btn__cv" download
+            >Download cv</a
+          >
         </div>
       </section>
 
       <!-- Heading -->
-      <h2 class="heading__1 about_me">Qualifications</h2>
+      <h2 class="heading__1" id="skills">Skills</h2>
 
-      <!-- New section, my qualifications -->
+      <!-- New section, my skills -->
       <section class="container--2">
-        <div class="container__left-3 bx-sh">
+        <div class="container__left-3">
           <h3 class="heading__3">Web-development</h3>
           <ul class="skills">
             <li class="skill">
@@ -114,7 +121,7 @@
             </li>
           </ul>
         </div>
-        <div class="container__right-3 bx-sh">
+        <div class="container__right-3">
           <h3 class="heading__3">Other skills</h3>
           <ul>
             <li class="skill skill_other">
@@ -164,46 +171,50 @@
       </section>
 
       <!-- Heading -->
-      <h2 class="heading__1 about_me">Projects</h2>
+      <h2 class="heading__1" id="projects">Projects</h2>
       <section class="cont__3">
-        <div class="card bx-sh">
-          <img src="img/budget.png" alt="" />
+        <div class="card">
+          <img src="img/mimih.png" alt="..." />
           <p class="par-1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-            nihil magnam dolore quae officia sapiente.
+            Personal website for a high school mates. Fully responsive HTML page
+            with CSS, no JAVASCRIPT.
           </p>
-          <button class="btn">visit page</button>
+          <a href="https://mitchellemimih.netlify.app/" class="btn"
+            >visit page</a
+          >
         </div>
-        <div class="card bx-sh">
+        <div class="card">
           <img src="img/budget.png" alt="" />
           <p class="par-1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-            nihil magnam dolore quae officia sapiente.
+            Basic budget App. All data is saved on browser, hence no one else
+            can view your data. Mainly JAVASCRIPT.
           </p>
-          <button class="btn">visit page</button>
+          <a href="https://tafara-budget-app.netlify.app" class="btn"
+            >visit page</a
+          >
         </div>
-        <div class="card bx-sh">
-          <img src="img/budget.png" alt="" />
+        <div class="card">
+          <img src="img/drone.jpg" alt="" />
           <p class="par-1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-            nihil magnam dolore quae officia sapiente.
+            Intelligent drone, the site shows more information on how I built it
+            and how it works.
           </p>
-          <button class="btn">visit page</button>
+          <a href="" class="btn">visit page</a>
         </div>
       </section>
 
       <!-- Heading -->
-      <h2 class="heading__1 about_me">Contact me</h2>
+      <h2 class="heading__1" id="contacts">Contact me</h2>
       <footer>
-        <div class="call__info bx-sh">
+        <div class="call__info">
           <p class="info__name">Phone</p>
           <p class="info__val">+8613260050047</p>
         </div>
-        <div class="call__info bx-sh">
+        <div class="call__info">
           <p class="info__name">Email</p>
           <p class="info__val">tafara618@gmail.com</p>
         </div>
-        <div class="call__info bx-sh">
+        <div class="call__info">
           <p class="info__name">Location</p>
           <p class="info__val">Beijing, China</p>
         </div>
